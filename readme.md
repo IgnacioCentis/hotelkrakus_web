@@ -2,4 +2,4 @@
 ## Sitio web comercial
 
 
-www.krakushotel.com.ar
+https://krakushotel.com.ar
