@@ -11,7 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="css/jquery-ui.css">
+	 
 
 	</head>
 	<body class="is-preload">
@@ -319,13 +319,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="js/jquery.min.js"></script>
-  			<script src="js/jquery-ui.js"></script> -->
-			<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 			<!--Floating WhatsApp css-->  
-			<link rel="stylesheet" href="floating_whatsapp/floating-wpp.min.css">  
+			<link rel="stylesheet" href="assets/floating_whatsapp/floating-wpp.min.css">  
 			<!--Floating WhatsApp javascript-->  
-			<script type="text/javascript" src="floating_whatsapp/floating-wpp.min.js"></script>
+			<script type="text/javascript" src="assets/floating_whatsapp/floating-wpp.min.js"></script>
 
 	</body>
 </html>
@@ -346,12 +343,11 @@
                popupMessage: 'Hola, En que te podemos ayudar?', //Popup Message
                message: 'Hola, me contacto desde tu sitio web: ',
                showPopup: true, //Enables popup display
-               buttonImage: '<img src="floating_whatsapp/whatsapp.svg" />', //Button Image
+               buttonImage: '<img src="assets/floating_whatsapp/whatsapp.svg" />', //Button Image
                size:'50px',
                //headerColor: 'crimson', //Custom header color
                //backgroundColor: 'crimson', //Custom background button color
                position: "right" //Position: left | right
-
            });
        });
   })
