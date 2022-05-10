@@ -16,14 +16,6 @@
 	</head>
 	<body class="is-preload">
 
-<!--
-	<div id="dialog" title="Promo hasta el !!">
- 	<p style="margin-top: 5%;    font-family: system-ui;">  <br> 
-					  Hotel Krakus esta adherido al programa PreViaje, no dejes pasar esta oportunidad.<a href="#contact"> Envianos tu consulta!</a><br>
-					 <a href="https://previaje.gob.ar" target="blanck" style="    color: #4695da;" title="conoce mas..."> previaje.gob.ar/</a></p>
-  </div>
--->
-
 		<div id="WAButton" style="z-index: 100;  "></div> 
 		<!-- Nav -->
 			<nav id="nav">
@@ -331,14 +323,10 @@
 
   $(document).ready(function(){
 
-/*
-	  $( function() {
-	    $( "#dialog" ).dialog();
-	  } );
-*/
+
   	$(function () {
            $('#WAButton').floatingWhatsApp({
-               phone: '5492257552794', //WhatsApp Business phone number
+               phone: '000000', //WhatsApp Business phone number
                headerTitle: 'Realízanos una Consulta!', //Popup Title
                popupMessage: 'Hola, En que te podemos ayudar?', //Popup Message
                message: 'Hola, me contacto desde tu sitio web: ',
